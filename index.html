@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Terry Thompson's Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./assets/style/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+    </head>
+    <body>
+        <!-- Navigation use flex-->
+       <header class='navigation'>
+            <h1><img src="assets/img/tech.gif"> Terry Thompson</h1>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#mywork">Past Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </header>
+       <!-- Hero-->
+       <section class='hero'>
+           <article class="hero-content">
+                <!--<img src="./assets/img/me.jpg" alt="An image of Terry Thompson" width= '350px'/>
+                <p>“So often times it happens that we live our lives in chains, and we never even know we have the key." -Already Gone, The Eagles.</p>-->
+            </article>
+        </section>
+       <!--About-->
+       <section id='about' class='aboutme'>
+            <div><img src="./assets/img/me.jpg" alt="An image of Terry Thompson" width= '350px'/></div>
+            <div class='vl'></div>
+            <div class='aboutText'>
+                <h2>About Me</h2>
+            <p>I am an accomplished, mature, individual with a long career in technology. I have held diverse positions of increasing responsibility including support, technical writing, and account management. I am currently transitioning into the field of full stack web developement.</p>
+            </div>
+       </section>
+       <hr>
+       <section id ='mywork' >
+           <div class='container-fluid'>
+               <h3>Past Projects</h3>
+                <div class='row'>
+                    <div class='col-3'>
+                        <img src='./assets/img/projectit.png' class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Project It</h5>
+                          <p class="card-text">A React app that allows the user to create projects and tasks within those projects.  Project It uses the full MERN stack with GraphQL as middleware and Materialize for style. </p>
+                          <a href="https://github.com/roxyvaught/project-it" class="btn btn-primary" target='_blank'>View App</a>
+                          <a href="https://project-it-panda.herokuapp.com/" class="btn btn-secondary" target= '_blank'>View Github</a>
+                        </div> 
+                    </div>
+                    <div class='col-3'>
+                        <img src='./assets/img/hearth.png' class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Hearth</h5>
+                          <p class="card-text">Hearth is a photo sharing app. Users can create a group in which they can create posts to upload and share photographs.  Only group members can view posts. 
+                              Hearth is a full stack app that uses Node, Express, Jimp, Express-Fileupload and Mysql as well as Sequelize </p>
+                          <a href="https://infinite-ocean-27765.herokuapp.com/" class="btn btn-primary" target='_blank'>View App</a>
+                          <a href="https://github.com/feuerbacherb/hearth" class="btn btn-secondary" target= '_blank'>View Github</a>
+                        </div> 
+                    </div>
+                    <div class='col-3'>
+                        <img src='./assets/img/parks.png' class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Vacation-Planner</h5>
+                          <p class="card-text">A front end application that allows users to plan a vacation at a national park. 
+                              The webpage consumes the National Park Service and Open Weather APIs to display campground and weather information. </p>
+                          <a href="https://terrylthompsonintx.github.io/Vacation-Planner/" class="btn btn-primary" target= '_blank'>  View App  </a>
+                          <a href="https://github.com/roxyvaught/Vacation-Planner" class="btn btn-secondary" target= '_blank'>View Github</a>
+                        </div> 
+                    </div>
+                    <div class='col-3'>
+                        <img src='./assets/img/weather.png' class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Weather-Dashboard</h5>
+                          <p class="card-text">A front end project that allows the user to get the forecast for their city. The webpage consumes the Open Weather API.
+                               </p>
+                          <a href="https://terrylthompsonintx.github.io/Weather-Dashboard/" class="btn btn-primary" target= '_blank'>View App</a>
+                          <a href="https://github.com/terrylthompsonintx/Weather-Dashboard" class="btn btn-secondary" target= '_blank'>View Github</a>
+                        </div> 
+                    </div>
+                  
+                    
+                </div>
+                <div class='row'>
+                    
+                    <div class='col-3'>
+                        <img src='./assets/img/daytimer.png' class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Day Timer</h5>
+                          <p class="card-text">An app that allows the user to plan their day. The user enters tasks through out the day.  The app uses the javascript setinterval method to track time while highlighting tasks for the current hour.  </p>
+                          <a href="https://terrylthompsonintx.github.io/DayTimer/" class="btn btn-primary" target='_blank'>View App</a>
+                          <a href="https://github.com/terrylthompsonintx/DayTimer" class="btn btn-secondary" target= '_blank'>View Github</a>
+                        </div> 
+                    </div>
+                    <div class='col-3'>
+                        <img src='./assets/img/jsquiz.png' class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Javascript Quiz</h5>
+                          <p class="card-text">A quiz game that uses HTML, CSS, and Javascript.   </p>
+                          <a href="https://terrylthompsonintx.github.io/jsQuiz/" class="btn btn-primary" target='_blank'>View App</a>
+                          <a href="https://github.com/terrylthompsonintx/jsQuiz" class="btn btn-secondary" target= '_blank'>View Github</a>
+                        </div> 
+                    </div>
+                    <div class='col-3'>
+                    <img src='./assets/img/password.png' class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Password Generator</h5>
+                          <p class="card-text">An app that prompts the users for the parameters of new password and generates a random one based on those parameters.
+                               </p>
+                          <a href="https://terrylthompsonintx.github.io/password-generator/" class="btn btn-primary" target='_blank'>View App</a>
+                          <a href="https://github.com/terrylthompsonintx/password-generator" class="btn btn-secondary" target= '_blank'>View Github</a>
+                        </div> 
+                    </div>
+                    <div class='col-3'>
+                    <img src='./assets/img/notetaker.png' class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Note Taker</h5>
+                          <p class="card-text">A note taking app.  The user can create,edit, and delete notes.  Persistance is through local storage. </p>
+                          <a href="https://notetaker--tt.herokuapp.com/" class="btn btn-primary" target='_blank'>View App</a>
+                          <a href="" class="btn btn-secondary" target= '_blank'>View Github</a>
+                        </div> 
+                    </div>
+                   
+                </div>
+           </div>
+       </section>
+
+       <!-- Work -->
+
+       <!--Footer Contact links-->
+       <footer id='contact' class='contactme'>
+           <h2>Contact Me</h2>
+           <ul>
+                <li><a href="tel:15129142238"><img  src="./assets/img/cell.png" alt="An icon of a telephone" width='42px'></a></li>
+                <li><a href="mailto:terryLThompsonInTx@gmail.com"><img src="./assets/img/email.png" alt="An icon of email" width='42px'></a></li>
+                <li><a href="https://github.com/terrylthompsonintx" target="_blank"><img src="./assets/img/githubocto.png" src="An icon of Github" width='42px'></a></li>
+                <li><a href="https://www.linkedin.com/in/terrylthompson/" target="_blank"><img src="./assets/img/link.png" width='42px'></a></li>
+                <li><a href="TerryThompsonWebDeveloperResume.pdf" download="TerryThompsonWebDeveloperResume.pdf"><img src="./assets/img/resume.png" width='42px'></a></li>
+            </ul>
+       </footer>
+
+    </body>
+</html>
